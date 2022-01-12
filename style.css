@@ -80,6 +80,7 @@ main{
 hr{
     border: 1px solid slategray;
 }
+/*----------top blog-------**/
 .top-blog h2{
 
     color: #562EFF;
@@ -117,4 +118,46 @@ hr{
 .text-1 a{
     text-decoration: none;
     color:#562EFF;
+}
+/*course area**/
+.course-area h3{
+    color: #562EFF;
+    font-size:24px;
+    margin-bottom: 30px;
+
+}
+.course-img img{
+    width: 224px;
+    height: 104px;
+}
+.course-text h2{
+    font-size: 20px;
+    padding: 5px;
+}
+.course-text p{
+    color:#ED6B4F;
+    font-size: 13px;
+}
+.star .fill{
+    color:#FFC014;
+}
+.star .empty{
+    color: #AEAEAE;
+}
+.star{
+    display: flex;
+    
+  
+  
+  
+}
+.course1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.star .text2{
+    background-color:tan;
+    border-radius: 5px;
+    
 }
